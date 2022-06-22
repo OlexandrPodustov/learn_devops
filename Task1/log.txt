@@ -1,0 +1,41 @@
+commit 71e3f74c267074c4c1203ffc27006705b8c8fe86
+Merge: c3f6b71 550079f
+Author: Oleksandr Podustov <OlexandrPodustov@users.noreply.github.com>
+Date:   Wed Jun 22 16:40:53 2022 +0300
+
+    Merge pull request #2 from OlexandrPodustov/dev
+    
+    Dev
+
+commit 550079fe7ce4e9d2def461d4ab174d78fea6666c
+Merge: 7fdb3cb f456f4b
+Author: Oleksandr Podustov <OlexandrPodustov@users.noreply.github.com>
+Date:   Wed Jun 22 16:40:32 2022 +0300
+
+    Merge pull request #1 from OlexandrPodustov/opodu-new_feature
+    
+    added gitignore
+
+commit f456f4b5d347aab300f9b9ab7e9c9afd8291bbce
+Author: Oleksandr Podustov <oleksandr.podustov@connectwise.com>
+Date:   Wed Jun 22 16:39:13 2022 +0300
+
+    added gitignore
+
+commit 7fdb3cb99ab6728d8a3dab48dfab3c2656bfbde1
+Author: Oleksandr Podustov <oleksandr.podustov@connectwise.com>
+Date:   Wed Jun 22 16:37:36 2022 +0300
+
+    dev branch changes
+
+commit c3f6b7181f92ffed1b1dde87abcbe73a2cce14e1
+Author: Oleksandr Podustov <oleksandr.podustov@connectwise.com>
+Date:   Wed Jun 22 16:35:34 2022 +0300
+
+    task1 changes
+
+commit 6b63a2962b05be3427f99c7ede6b7b52d0def94e
+Author: Oleksandr Podustov <OlexandrPodustov@users.noreply.github.com>
+Date:   Wed Jun 22 16:31:39 2022 +0300
+
+    Initial commit
