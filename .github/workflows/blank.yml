@@ -37,7 +37,7 @@ jobs:
         run: cat ./Task1/log.txt
 
       - name: step 3
-        run: echo "Hello from ${DEPLOY_VER} commit $DEPLOY_VER2 $DEPLOY_VER3 ${{ DEPLOY_VER }}"
+        run: echo "$GITHUB_SHA Hello from ${DEPLOY_VER} commit $DEPLOY_VER2 $DEPLOY_VER3"
 
   build2:
     needs: build1
