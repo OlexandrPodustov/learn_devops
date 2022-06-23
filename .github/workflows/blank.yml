@@ -15,7 +15,8 @@ on:
 
 env:
   DEPLOY_VER: ${GITHUB_SHA}
-  DEPLOY_VER2: $GITHUB_SHA
+  DEPLOY_VER2: "$GITHUB_SHA"
+  DEPLOY_VER3: echo $GITHUB_SHA
   YEAR: 1111
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -36,7 +37,7 @@ jobs:
         run: cat ./Task1/log.txt
 
       - name: step 3
-        run: echo "Hello from ${DEPLOY_VER} commit $DEPLOY_VER2"
+        run: echo "Hello from ${DEPLOY_VER} commit $DEPLOY_VER2 $DEPLOY_VER3"
 
   build2:
     needs: build1
