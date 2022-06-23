@@ -16,7 +16,7 @@ on:
 env:
   DEPLOY_VER: ${GITHUB_SHA}
   DEPLOY_VER2: "$GITHUB_SHA"
-  DEPLOY_VER3: echo $GITHUB_SHA
+  DEPLOY_VER3: ${{ GITHUB_SHA }}
   YEAR: 1111
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
