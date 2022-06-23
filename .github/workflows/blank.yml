@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 env:
-  DEPLOY_VER: ${{GITHUB_SHA}}
+  DEPLOY_VER: ${{github.sha}}
   DEPLOY_VER2: "$GITHUB_SHA"
   YEAR: 1111
 
