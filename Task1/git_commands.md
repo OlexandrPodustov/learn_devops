@@ -1,3 +1,4 @@
+```
 1857 ls
 1858 mkdir Task1
 1859 cd Task1
@@ -38,3 +39,5 @@
 1894 history| tail 20
 1895 history| tail -20
 1896 history| tail -40
+
+```
