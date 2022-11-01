@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
 # Controls when the workflow will run
@@ -58,3 +56,18 @@ jobs:
           echo My favorite day of week is - "$FAVORITE_DAY_OF_WEEK";
         env:
           DAY__OF_THE_MONTH: 22
+
+  build3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout curr repository
+        uses: actions/checkout@v3
+        with:
+          path: main
+      - name: checkout another PRIVATE repo alongside
+        uses: actions/checkout@v3
+        with:
+          repository: OlexandrPodustov/actions
+          ref: main
+          path: tttestfldr
+          token: ${{ secrets.GITHUB_TOKEN }}
