@@ -19,7 +19,6 @@ permissions:
   packages: read
   contents: read
   actions: read
-  checks: read
   deployments: read
   discussions: read
   issues: read
