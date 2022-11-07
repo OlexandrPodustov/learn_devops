@@ -83,4 +83,4 @@ jobs:
           repository: OlexandrPodustov/actions
           ref: main
           path: tttestfldr
-          token: ${{ secrets.SECRET_TO_PULL_THIS_REPO }}
+          token: ${{ secrets.ACCESS_TOKEN }}
